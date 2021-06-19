@@ -3,6 +3,7 @@
 ##"Comandos para la creación de las tablas"##
 
 "sin clave foránea"
+
 sequelize model:generate --name Brand --attributes name:string
 
 sequelize model:generate --name Color --attributes name:string
@@ -11,7 +12,8 @@ sequelize model:generate --name User --attributes firstName:string,lastName:stri
 
 sequelize model:generate --name Category --attributes name:string
  
- "con clave foránea"
+"con clave foránea"
+
 sequelize model:generate --name Product --attributes name:string,description:text,price:decimal,image:string,keywords:text,userId:integer,brandId:integer
 
 sequelize model:generate --name ColorProduct --attributes productId:integer,colorId:integer
