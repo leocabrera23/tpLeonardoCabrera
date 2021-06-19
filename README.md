@@ -18,7 +18,11 @@ sequelize model:generate --name ColorProduct --attributes productId:integer,colo
 
 sequelize model:generate --name CategoryProduct --attributes productId:integer,categoryId:integer
 
+![image](https://user-images.githubusercontent.com/83379102/122650418-33dd8b00-d109-11eb-8c3a-ef0e0f41eb90.png)
+![image](https://user-images.githubusercontent.com/83379102/122650427-43f56a80-d109-11eb-9fb2-af90b2bca114.png)
 
 Materia: Programación 
+
 Alumno: Leonardo Cabrera
+
 Profesor: Alberto Cortez
